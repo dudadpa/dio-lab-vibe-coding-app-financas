@@ -87,3 +87,192 @@ No README do seu repositório, inclua:
 ## 💬 Conclusão
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+
+# Entrega do Projeto
+
+### Prompt Final (PRD)
+
+```txt
+Plano de MVP — Aplicativo de Organização Financeira por Conversa
+
+🎯 Visão Geral
+
+O objetivo do MVP é validar se usuários conseguem controlar melhor suas finanças por meio de uma experiência conversacional, sem depender de planilhas ou formulários complexos.
+O diferencial do produto será transformar conversas simples em registros financeiros automáticos, funcionando como um assistente financeiro pessoal.
+
+💡 Proposta de Valor
+
+Antes
+
+Abrir aplicativo
+
+Escolher categoria
+
+Digitar valor
+
+Salvar manualmente
+
+Depois 
+Usuário apenas conversa:
+
+"Gastei R$ 35 no almoço hoje."
+
+Sistema entende automaticamente:
+
+Valor: R$ 35
+
+Categoria: Alimentação
+
+Data: Hoje
+
+E registra a transação sem esforço.
+
+🚀 Funcionalidades Essenciais do MVP
+
+1. Chat Financeiro
+
+Registrar movimentações em linguagem natural
+
+Exemplo:
+
+Usuário: "Recebi meu salário de R$ 2.500."
+
+Sistema: "Entrada registrada em Receitas."
+
+Recursos: campo de chat, NLP, extração de valor, tipo, categoria e data
+
+2. Classificação Automática
+
+Categorias iniciais: Alimentação, Transporte, Moradia, Saúde, Educação, Lazer, Compras, Salário, Investimentos, Outros
+
+Exemplo:
+
+Usuário: "Peguei um Uber para o trabalho."
+
+Sistema: "Despesa registrada em Transporte."
+
+3. Dashboard Simplificado
+
+Indicadores: saldo atual, gastos do mês, receitas do mês, categoria mais cara, evolução dos gastos
+
+Regra: entendimento em menos de 10 segundos
+
+4. Metas Financeiras
+
+Criar e acompanhar metas
+
+Exemplo:
+
+Usuário: "Quero juntar R$ 5.000 para viajar."
+
+Sistema: "Meta criada. Economize R$ 417/mês."
+
+5. Agente Financeiro
+
+Recomendações automáticas e práticas
+
+Exemplo:
+
+"Você gastou 25% mais com delivery este mês."
+
+"Se reduzir R$ 10/dia em lanches, economiza R$ 300/mês."
+
+📱 Principais Telas
+
+Boas-vindas: nome do app, benefícios, botão "Começar"
+
+Cadastro/Login: nome, e-mail, senha ou login social
+
+Chat Principal: histórico, campo de mensagem, sugestões rápidas
+
+Dashboard: saldo, gastos por categoria, gráfico mensal
+
+Metas: lista de metas, valor alvo, acumulado, prazo
+
+Perfil: dados pessoais, limites de gastos, notificações
+
+⚙️ Arquitetura Simplificada
+
+Front-end: Flutter ou React Native (base única para Android/iOS)
+
+Back-end: Node.js ou Python (cadastro, transações, métricas, IA)
+
+Banco de Dados: PostgreSQL (usuários, transações, metas, categorias)
+
+IA: entender mensagens, classificar gastos, gerar recomendações
+
+✅ Validação Inicial
+
+Protótipo no Figma (sem programação)
+
+Teste com 10–20 usuários
+
+Perguntas: controla gastos hoje? O que incomoda nos apps atuais? Usaria chat para registrar? Dicas automáticas seriam úteis?
+
+Métricas de Sucesso
+
+% de usuários que registram pelo menos 1 gasto
+
+Média de registros por semana
+
+Número de metas criadas
+
+Retorno após 7 dias
+
+Satisfação do usuário
+
+📌 Escopo da Primeira Versão (MVP)
+
+Inclui:
+
+Registro de gastos por chat
+
+Classificação automática
+
+Dashboard simples
+
+Metas financeiras
+
+Recomendações básicas
+
+Não inclui:
+
+Integração bancária automática
+
+Investimentos avançados
+
+Cartão de crédito completo
+
+Controle empresarial
+
+Planejamento financeiro avançado
+
+✨ Resumo
+
+A versão inicial deve entregar uma única promessa clara:
+"Converse com seu assistente financeiro e organize sua vida sem planilhas."
+```
+## Primeira versão (ChatGPT)
+
+<img width="1466" height="787" alt="image" src="https://github.com/user-attachments/assets/0a18d816-cd63-403d-96be-eadb41bcff40" />
+
+## Refinamento da segunda versão (Copilot)
+
+<img width="1202" height="662" alt="image" src="https://github.com/user-attachments/assets/719ff9ce-16b8-4e28-a89c-2e94d0c3948d" />
+
+## Terceira versão final (Lovable)
+
+<img width="1907" height="817" alt="image" src="https://github.com/user-attachments/assets/8edc924d-8cb6-4dfa-b0f9-6913e3ca822a" />
+
+## Resumo do App
+
+O aplicativo foi criado para ajudar as pessoas a organizarem suas finanças de forma simples e prática. Em vez de preencher planilhas ou formulários, o usuário conversa com o aplicativo como se estivesse falando com um assistente pessoal.
+
+Ao enviar mensagens como "Gastei R$ 30 no almoço" ou "Recebi meu salário hoje", o sistema entende automaticamente as informações e registra a movimentação financeira. Além disso, o aplicativo acompanha receitas e despesas, exibe gráficos e resumos dos gastos, permite criar metas de economia e oferece dicas para melhorar a saúde financeira.
+
+A proposta é tornar o controle do dinheiro mais fácil e acessível, ajudando o usuário a criar o hábito de acompanhar suas finanças sem complicação. Tudo isso por meio de uma experiência simples, rápida e baseada em conversa.
+
+## Principais aprendizados
+
+Durante a realização do projeto, desenvolvi habilidades na criação de prompts para inteligência artificial e aprendi a trabalhar com os dados gerados por essas ferramentas, entendendo melhor seu funcionamento e suas aplicações na prática.
